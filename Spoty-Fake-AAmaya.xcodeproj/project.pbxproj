@@ -14,6 +14,30 @@
 		A88CF922284C1951009FAD06 /* Spoty_Fake_AAmaya.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A88CF920284C1951009FAD06 /* Spoty_Fake_AAmaya.xcdatamodeld */; };
 		A88CF924284C1955009FAD06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A88CF923284C1955009FAD06 /* Assets.xcassets */; };
 		A88CF927284C1955009FAD06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A88CF925284C1955009FAD06 /* LaunchScreen.storyboard */; };
+		A88CF936284C1A28009FAD06 /* Spotify+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CF935284C1A28009FAD06 /* Spotify+Image.swift */; };
+		A88CF938284C1A60009FAD06 /* Spotify+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CF937284C1A60009FAD06 /* Spotify+String.swift */; };
+		A88CF93A284C2113009FAD06 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A88CF939284C2113009FAD06 /* Home.storyboard */; };
+		A88CF93C284C2991009FAD06 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CF93B284C2991009FAD06 /* Request.swift */; };
+		A88CF93E284C29F5009FAD06 /* PlayListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CF93D284C29F5009FAD06 /* PlayListViewModel.swift */; };
+		A88CF940284C2A23009FAD06 /* PlayList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CF93F284C2A23009FAD06 /* PlayList.swift */; };
+		A88CF942284C2B06009FAD06 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CF941284C2B06009FAD06 /* LibraryViewController.swift */; };
+		A88CF946284C49D5009FAD06 /* PlayListDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CF945284C49D5009FAD06 /* PlayListDetail.swift */; };
+		A88CF94A284C4AC9009FAD06 /* PlatlistDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CF949284C4AC9009FAD06 /* PlatlistDetailViewModel.swift */; };
+		A88CF94C284C4B63009FAD06 /* PlaylistDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A88CF94B284C4B63009FAD06 /* PlaylistDetail.storyboard */; };
+		A88CF94E284C4BE2009FAD06 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CF94D284C4BE2009FAD06 /* GradientView.swift */; };
+		A88CF950284C5CF5009FAD06 /* PlaylistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CF94F284C5CF5009FAD06 /* PlaylistDetailViewController.swift */; };
+		A88CF954284C7D47009FAD06 /* ItemPlaylistDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CF953284C7D47009FAD06 /* ItemPlaylistDetailTableViewCell.swift */; };
+		A88CF957284C7F56009FAD06 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = A88CF956284C7F56009FAD06 /* SDWebImage */; };
+		A88CF959284C7F56009FAD06 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A88CF958284C7F56009FAD06 /* SDWebImageMapKit */; };
+		A88CF95D284C8301009FAD06 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A88CF95C284C8301009FAD06 /* GoogleService-Info.plist */; };
+		A88CF960284C83DB009FAD06 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A88CF95F284C83DB009FAD06 /* FirebaseAuth */; };
+		A88CF962284C83DB009FAD06 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = A88CF961284C83DB009FAD06 /* FirebaseDatabase */; };
+		A88CF964284C83DB009FAD06 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A88CF963284C83DB009FAD06 /* FirebaseFirestore */; };
+		A88CF966284C83DB009FAD06 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A88CF965284C83DB009FAD06 /* FirebaseStorage */; };
+		A88CF968284C8A10009FAD06 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CF967284C8A10009FAD06 /* HomeViewController.swift */; };
+		A88CF96A284C8A43009FAD06 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CF969284C8A43009FAD06 /* Search.swift */; };
+		A88CF96C284DB220009FAD06 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CF96B284DB220009FAD06 /* SearchViewModel.swift */; };
+		A88CF96E284DB2AD009FAD06 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CF96D284DB2AD009FAD06 /* SearchTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +50,24 @@
 		A88CF923284C1955009FAD06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A88CF926284C1955009FAD06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A88CF928284C1955009FAD06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A88CF935284C1A28009FAD06 /* Spotify+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Spotify+Image.swift"; sourceTree = "<group>"; };
+		A88CF937284C1A60009FAD06 /* Spotify+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Spotify+String.swift"; sourceTree = "<group>"; };
+		A88CF939284C2113009FAD06 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		A88CF93B284C2991009FAD06 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		A88CF93D284C29F5009FAD06 /* PlayListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListViewModel.swift; sourceTree = "<group>"; };
+		A88CF93F284C2A23009FAD06 /* PlayList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayList.swift; sourceTree = "<group>"; };
+		A88CF941284C2B06009FAD06 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		A88CF945284C49D5009FAD06 /* PlayListDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayListDetail.swift; sourceTree = "<group>"; };
+		A88CF949284C4AC9009FAD06 /* PlatlistDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatlistDetailViewModel.swift; sourceTree = "<group>"; };
+		A88CF94B284C4B63009FAD06 /* PlaylistDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlaylistDetail.storyboard; sourceTree = "<group>"; };
+		A88CF94D284C4BE2009FAD06 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		A88CF94F284C5CF5009FAD06 /* PlaylistDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistDetailViewController.swift; sourceTree = "<group>"; };
+		A88CF953284C7D47009FAD06 /* ItemPlaylistDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPlaylistDetailTableViewCell.swift; sourceTree = "<group>"; };
+		A88CF95C284C8301009FAD06 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A88CF967284C8A10009FAD06 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A88CF969284C8A43009FAD06 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		A88CF96B284DB220009FAD06 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		A88CF96D284DB2AD009FAD06 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +75,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A88CF959284C7F56009FAD06 /* SDWebImageMapKit in Frameworks */,
+				A88CF960284C83DB009FAD06 /* FirebaseAuth in Frameworks */,
+				A88CF962284C83DB009FAD06 /* FirebaseDatabase in Frameworks */,
+				A88CF964284C83DB009FAD06 /* FirebaseFirestore in Frameworks */,
+				A88CF957284C7F56009FAD06 /* SDWebImage in Frameworks */,
+				A88CF966284C83DB009FAD06 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +106,90 @@
 		A88CF916284C1951009FAD06 /* Spoty-Fake-AAmaya */ = {
 			isa = PBXGroup;
 			children = (
+				A88CF934284C19BD009FAD06 /* ViewModel */,
+				A88CF933284C19AF009FAD06 /* Model */,
+				A88CF932284C19AA009FAD06 /* View */,
+				A88CF931284C199F009FAD06 /* Onboarding */,
+				A88CF930284C1995009FAD06 /* ViewCell */,
+				A88CF92F284C1987009FAD06 /* Helper */,
+				A88CF92E284C1973009FAD06 /* Screens */,
 				A88CF917284C1951009FAD06 /* AppDelegate.swift */,
 				A88CF919284C1951009FAD06 /* SceneDelegate.swift */,
-				A88CF91B284C1951009FAD06 /* ViewController.swift */,
-				A88CF91D284C1951009FAD06 /* Main.storyboard */,
+				A88CF95C284C8301009FAD06 /* GoogleService-Info.plist */,
 				A88CF923284C1955009FAD06 /* Assets.xcassets */,
-				A88CF925284C1955009FAD06 /* LaunchScreen.storyboard */,
 				A88CF928284C1955009FAD06 /* Info.plist */,
 				A88CF920284C1951009FAD06 /* Spoty_Fake_AAmaya.xcdatamodeld */,
 			);
 			path = "Spoty-Fake-AAmaya";
+			sourceTree = "<group>";
+		};
+		A88CF92E284C1973009FAD06 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A88CF91D284C1951009FAD06 /* Main.storyboard */,
+				A88CF939284C2113009FAD06 /* Home.storyboard */,
+				A88CF94B284C4B63009FAD06 /* PlaylistDetail.storyboard */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		A88CF92F284C1987009FAD06 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A88CF935284C1A28009FAD06 /* Spotify+Image.swift */,
+				A88CF937284C1A60009FAD06 /* Spotify+String.swift */,
+				A88CF94D284C4BE2009FAD06 /* GradientView.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A88CF930284C1995009FAD06 /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A88CF953284C7D47009FAD06 /* ItemPlaylistDetailTableViewCell.swift */,
+				A88CF96D284DB2AD009FAD06 /* SearchTableViewCell.swift */,
+			);
+			path = ViewCell;
+			sourceTree = "<group>";
+		};
+		A88CF931284C199F009FAD06 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				A88CF925284C1955009FAD06 /* LaunchScreen.storyboard */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		A88CF932284C19AA009FAD06 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A88CF91B284C1951009FAD06 /* ViewController.swift */,
+				A88CF941284C2B06009FAD06 /* LibraryViewController.swift */,
+				A88CF94F284C5CF5009FAD06 /* PlaylistDetailViewController.swift */,
+				A88CF967284C8A10009FAD06 /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A88CF933284C19AF009FAD06 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A88CF93F284C2A23009FAD06 /* PlayList.swift */,
+				A88CF945284C49D5009FAD06 /* PlayListDetail.swift */,
+				A88CF969284C8A43009FAD06 /* Search.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A88CF934284C19BD009FAD06 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A88CF93B284C2991009FAD06 /* Request.swift */,
+				A88CF93D284C29F5009FAD06 /* PlayListViewModel.swift */,
+				A88CF949284C4AC9009FAD06 /* PlatlistDetailViewModel.swift */,
+				A88CF96B284DB220009FAD06 /* SearchViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +208,14 @@
 			dependencies = (
 			);
 			name = "Spoty-Fake-AAmaya";
+			packageProductDependencies = (
+				A88CF956284C7F56009FAD06 /* SDWebImage */,
+				A88CF958284C7F56009FAD06 /* SDWebImageMapKit */,
+				A88CF95F284C83DB009FAD06 /* FirebaseAuth */,
+				A88CF961284C83DB009FAD06 /* FirebaseDatabase */,
+				A88CF963284C83DB009FAD06 /* FirebaseFirestore */,
+				A88CF965284C83DB009FAD06 /* FirebaseStorage */,
+			);
 			productName = "Spoty-Fake-AAmaya";
 			productReference = A88CF914284C1951009FAD06 /* Spoty-Fake-AAmaya.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +244,10 @@
 				Base,
 			);
 			mainGroup = A88CF90B284C1950009FAD06;
+			packageReferences = (
+				A88CF955284C7F56009FAD06 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				A88CF95E284C83DB009FAD06 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = A88CF915284C1951009FAD06 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,7 +264,10 @@
 			files = (
 				A88CF927284C1955009FAD06 /* LaunchScreen.storyboard in Resources */,
 				A88CF924284C1955009FAD06 /* Assets.xcassets in Resources */,
+				A88CF94C284C4B63009FAD06 /* PlaylistDetail.storyboard in Resources */,
 				A88CF91F284C1951009FAD06 /* Main.storyboard in Resources */,
+				A88CF93A284C2113009FAD06 /* Home.storyboard in Resources */,
+				A88CF95D284C8301009FAD06 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +278,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A88CF940284C2A23009FAD06 /* PlayList.swift in Sources */,
+				A88CF93E284C29F5009FAD06 /* PlayListViewModel.swift in Sources */,
+				A88CF946284C49D5009FAD06 /* PlayListDetail.swift in Sources */,
+				A88CF950284C5CF5009FAD06 /* PlaylistDetailViewController.swift in Sources */,
+				A88CF96A284C8A43009FAD06 /* Search.swift in Sources */,
 				A88CF922284C1951009FAD06 /* Spoty_Fake_AAmaya.xcdatamodeld in Sources */,
+				A88CF96C284DB220009FAD06 /* SearchViewModel.swift in Sources */,
+				A88CF94A284C4AC9009FAD06 /* PlatlistDetailViewModel.swift in Sources */,
+				A88CF938284C1A60009FAD06 /* Spotify+String.swift in Sources */,
+				A88CF936284C1A28009FAD06 /* Spotify+Image.swift in Sources */,
+				A88CF96E284DB2AD009FAD06 /* SearchTableViewCell.swift in Sources */,
+				A88CF954284C7D47009FAD06 /* ItemPlaylistDetailTableViewCell.swift in Sources */,
 				A88CF91C284C1951009FAD06 /* ViewController.swift in Sources */,
+				A88CF942284C2B06009FAD06 /* LibraryViewController.swift in Sources */,
+				A88CF968284C8A10009FAD06 /* HomeViewController.swift in Sources */,
+				A88CF93C284C2991009FAD06 /* Request.swift in Sources */,
+				A88CF94E284C4BE2009FAD06 /* GradientView.swift in Sources */,
 				A88CF918284C1951009FAD06 /* AppDelegate.swift in Sources */,
 				A88CF91A284C1951009FAD06 /* SceneDelegate.swift in Sources */,
 			);
@@ -360,6 +512,58 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A88CF955284C7F56009FAD06 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		A88CF95E284C83DB009FAD06 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A88CF956284C7F56009FAD06 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A88CF955284C7F56009FAD06 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		A88CF958284C7F56009FAD06 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A88CF955284C7F56009FAD06 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+		A88CF95F284C83DB009FAD06 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A88CF95E284C83DB009FAD06 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		A88CF961284C83DB009FAD06 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A88CF95E284C83DB009FAD06 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		A88CF963284C83DB009FAD06 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A88CF95E284C83DB009FAD06 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		A88CF965284C83DB009FAD06 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A88CF95E284C83DB009FAD06 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		A88CF920284C1951009FAD06 /* Spoty_Fake_AAmaya.xcdatamodeld */ = {
